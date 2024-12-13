@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ConectaTeen</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="icon" href="data:image/png;base64,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">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <div class="logo">
+      <span class="logo-text">ConectaTeen</span>
+      <span class="logo-icon">📅</span> <!-- Ícone de calendário -->
+     
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#planner">Planner</a></li>
+        <li><a href="#dicas">Dicas</a></li>
+        <li><a href="#comunidade">Comunidade</a></li>
+      </ul>
+    </nav>
+<button class="boton-elegante">Monte seu planner</button>
+
+  </header>
+
+  <!-- Seção 1: Sobre -->
+  <section id="sobre" class="section">
+    <h2>Sua Rotina, Seu Sucesso</h2>
+    <p>ConectaTeen é o lugar onde você organiza seus estudos, descobre dicas incríveis e explora novas ideias para crescer dentro e fora da escola.</p>
+    <img src="https://st.depositphotos.com/1662991/4845/i/450/depositphotos_48453133-stock-photo-teenagers-studying-at-school.jpg" alt="Adolescentes estudando">
+  </section>
+
+  <!-- Seção 2: Planner Interativo -->
+  <section id="planner" class="section">
+    <h2>Organize Seu Tempo</h2>
+    <p>Com nosso planner interativo, você pode definir metas diárias e acompanhar seus estudos. Comece agora!</p>
+    <table>
+      <thead>
+        <tr>
+          <th>Dia</th>
+          <th>Atividade</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Segunda</td><td><input type="text" placeholder="Atividade do dia"></td></tr>
+        <tr><td>Terça</td><td><input type="text" placeholder="Atividade do dia"></td></tr>
+        <tr><td>Quarta</td><td><input type="text" placeholder="Atividade do dia"></td></tr>
+        <tr><td>Quinta</td><td><input type="text" placeholder="Atividade do dia"></td></tr>
+        <tr><td>Sexta</td><td><input type="text" placeholder="Atividade do dia"></td></tr>
+      </tbody>
+    </table>
+    <a href="#" class="download-btn">Baixar Planner em PDF</a>
+    
+  </section>
+
+  <!-- Seção 3: Dicas & Hacks -->
+  <section id="dicas" class="section">
+    <h2>Dicas Rápidas para Detonar nos Estudos</h2>
+    <ul>
+      <li><img src="./—Pngtree—flat clock icon_1021251.png" alt="Pomodoro"> Use a técnica Pomodoro para se concentrar.</li>
+      <li><img src="./—Pngtree—light bulb idea lamp icon_6855295.png" alt="Mapas Mentais"> Crie resumos visuais com mapas mentais.</li>
+      <li><img src="./—Pngtree—light bulb idea lamp icon_6855295.png" alt="Dormir bem"> Durma bem para fixar o que aprendeu.</li>
+    </ul>
+  </section>
+
+  <!-- Seção 4: Conexão Alunos -->
+  <section id="comunidade" class="section">
+    <h2>Compartilhe e Aprenda Junto</h2>
+    <p>Tem alguma dúvida ou uma ideia legal para ajudar nos estudos? Envie sua mensagem e conecte-se com outros alunos.</p>
+    <form>
+        <input type="text" name="text" class="input" placeholder="Seu nome">
+        <input type="text" name="text" class="input" placeholder="mensagem">
+        <br>
+      <button class="boton-elegante">Enviar</button>
+      
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer> 
+    <div class="footer-container">  
+        <div class="footer-section"
+        <div class="footer-section"> 
+            <h4>Links Rápidos</h4>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="sobre.html">SOBRE</a></li>
+                <li><a href="dropdown.html">COMUNIDADE
+                </a></li>
+            </ul>
+        </div>
+</div>
+        <div class="footer-section">
+            <h4>Contato</h4>
+            <p>Email: chittaphonplanner@gmail.com</p>
+            <p>Telefone: (11) 1277-0127</p>
+        </div> 
+        <div class="footer-section">
+            <h4>Nos siga nas redes sociais!</h4>
+            <div class="social-links">
+                <a href="https://www.instagram.com" target="_blank">Instagram</a >
+                <br><br>
+                <a href="https://twitter.com/" target="_blank">Twitter</a>
+                <br><br>
+                <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+                <br><br>
+            
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>Criado para você, por pessoas que entendem a correria da sua rotina. 💡</p>
+    </div>
+</footer>
+
+</body>
+</html>
